@@ -1,0 +1,114 @@
+#container {
+    display: flex;
+    flex-direction: column;
+}
+#head, #page {
+    display: flex;
+    margin: 10px;  
+}
+#head {
+    justify-content: space-between;
+}
+#head #logo{
+    color: hwb(166 26% 25%);
+    font-weight: bold;
+}
+#page p{
+    margin-left: 20px;
+}
+#content {
+    background-image: url('./images/background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 80vh;
+}
+#content .title{
+   font-size: 20px;
+   text-align: center;
+   margin-top: 30px;
+   color: white;
+   font-weight: normal;
+}
+#content p{
+    font-size: 15px;
+    text-align: center;
+}
+#card{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+.card{
+    border: 1px solid white;
+    background-color: white;
+    /* padding: 10px; */
+    padding-top: 5px;
+    margin-left: 5%; 
+    border-radius: 5px;
+    width: 100%;
+    text-align: center;
+}
+.card .trajet{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+#arrival {
+    margin-left: 10px;
+}
+
+input{
+    width: 90%;
+    border-radius: 3px;
+    margin-bottom: 2px;
+    background-color: rgb(235, 241, 242);
+    border: 1px solid rgb(235, 241, 242);
+    padding: 3px;
+    /* margin-right: 0; */
+}
+#card :nth-child(2){
+    margin-right: 5%;
+}
+.image img{
+   width: 100%;
+}
+.date input{
+    width: 95%;
+    margin-top: 50px;
+    margin-left: 5px;
+}
+.btn button{
+    margin-top: 100px; 
+    width: 95%;
+    background-color: hwb(159 47% 27%);
+    color: white;
+    border-radius: 3px;
+    border: 1px solid hwb(159 47% 27%);
+    padding: 2px;
+}
+#allee ul li{
+    list-style-type: none;
+    background-color: bisque;
+    border-radius: 3px;
+    padding: 3px;
+    width: 90%;
+    font-size: 10px;
+    margin-left: 0;
+    padding-left: 0;
+    margin-top: 10px;
+}
+button{
+    color: white;
+    border: 1px solid hwb(159 47% 27%);
+    background-color: hwb(159 47% 27%);
+    border-radius: 3px;
+    padding: 2px;
+}
+#allee{
+    margin-left: 0;
+    padding-left: 0;
+}
+li span{
+    margin-left: 10px;
+}
