@@ -7,5 +7,5 @@ const cartsSchema = mongoose.Schema({
     price : Number,
 });
 
-const Cart = mongoose.model('trips',tripsSchema);
+const Cart = mongoose.model('trips',cartsSchema);
 module.exports = Cart;
