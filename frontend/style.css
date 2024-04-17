@@ -6,8 +6,12 @@
     display: flex;
     margin: 10px;  
 }
+#page p{
+    color: black;
+}
 #head {
     justify-content: space-between;
+    font-size: 20px;
 }
 #head #logo{
     color: hwb(166 26% 25%);
@@ -19,19 +23,22 @@
 #content {
     background-image: url('./images/background.jpg');
     background-size: cover;
+    background-position: center;
     background-repeat: no-repeat;
     height: 80vh;
 }
 #content .title{
-   font-size: 20px;
+   font-size: 2.5vw;
    text-align: center;
    margin-top: 30px;
    color: white;
    font-weight: normal;
 }
-#content p{
-    font-size: 15px;
+h2{
+    font-size: 1.8vw;
     text-align: center;
+    color: white;
+    font-weight: normal;
 }
 #card{
     display: flex;
@@ -45,14 +52,19 @@
     padding-top: 5px;
     margin-left: 5%; 
     border-radius: 5px;
-    width: 100%;
+    width: 250px;
+    height: 300px;
     text-align: center;
+    overflow: scroll;
 }
 .card .trajet{
     display: flex;
     flex-direction: column;
-    /* justify-content: center; */
     align-items: center;
+}
+.card p{
+    color: black;
+    font-size: 15px;
 }
 #arrival {
     margin-left: 10px;
@@ -65,13 +77,22 @@ input{
     background-color: rgb(235, 241, 242);
     border: 1px solid rgb(235, 241, 242);
     padding: 3px;
-    /* margin-right: 0; */
 }
 #card :nth-child(2){
     margin-right: 5%;
 }
 .image img{
-   width: 100%;
+   width: 50%;
+   margin-top: 30px;
+}
+.separation{
+   margin-top: 20px;
+   margin-left: 30px;
+   padding-left: 10px;
+   border-bottom: 2px solid rgb(108, 181, 157);
+   width: 70%;
+   text-align: center;
+
 }
 .date input{
     width: 95%;
@@ -79,24 +100,29 @@ input{
     margin-left: 5px;
 }
 .btn button{
-    margin-top: 100px; 
+    margin-top: 50px; 
     width: 95%;
     background-color: hwb(159 47% 27%);
     color: white;
     border-radius: 3px;
     border: 1px solid hwb(159 47% 27%);
     padding: 2px;
+    margin-left: 0;
 }
 #allee ul li{
     list-style-type: none;
     background-color: bisque;
     border-radius: 3px;
     padding: 3px;
-    width: 90%;
+    width: 100%;
     font-size: 10px;
     margin-left: 0;
     padding-left: 0;
     margin-top: 10px;
+}
+#alee ul{
+    margin-left: -34px;
+    margin-right: 11px;
 }
 button{
     color: white;
