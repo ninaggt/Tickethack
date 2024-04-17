@@ -1,0 +1,59 @@
+body{
+    background-color: rgb(235, 241,242);
+}
+
+
+#header{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+#tickethack{
+    margin-left: 20px;
+    color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#cartetBook{
+    margin-right: 20px;
+    height: auto;
+    width: 140px; 
+    display: flex;
+    justify-content: space-between;
+    
+}
+a{
+    text-decoration: none;
+}
+#cart{
+    color: black;
+    display: flex;
+    align-items: center;
+    
+}
+#books{
+    color: black;
+    display: flex;
+    align-items: center;
+    
+}
+#blockinfos{
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#cartInfos{
+    background-color: white;
+    width: 60%;
+    display: column;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+}
