@@ -10,7 +10,7 @@ router.post('/trips', (req, res) => {
           price: req.body.price,
           date: req.body.date
     });
-  console.log(req.body.departure,req.body.arrival);
+  
     if (!req.body.departure && !req.body.arrival) {
       res.json({ result: false})
     } else {
@@ -22,7 +22,7 @@ router.post('/trips', (req, res) => {
         }
       }
          res.json({ voyage: tab });
-console.log(tab);
+
       })
     
       // newtrips.save().then()
