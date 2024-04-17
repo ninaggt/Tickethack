@@ -51,5 +51,5 @@ fetch('http://localhost:3000/cart/cartSave').then(
                 fetch(`http://localhost:3000/cart/cartDelete/${idElement}`,{
                     method: 'DELETE'})
                 .then(response => response.json()).then(data =>{console.log(data)})
-    })}  
+    })}   
     }})
