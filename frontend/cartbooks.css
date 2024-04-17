@@ -51,9 +51,47 @@ a{
 
 #cartInfos{
     background-color: white;
-    width: 60%;
+    width: auto;
+    height: auto;
     display: column;
     border-radius: 10px;
     justify-content: center;
     align-items: center;
+    
+}
+.cartTrip{
+    margin-bottom: 2vw;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    display: flex;    
+    justify-content: space-around;
+    align-items: center;
+    border: solid black;
+    width: 40vw;
+    
+}
+.bottommyCart{
+background-color: rgb(0, 0, 77);
+width: auto;
+height: 30px;
+border-bottom-left-radius: 10px;
+border-bottom-right-radius: 10px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 10px;
+}
+.total{
+margin-left: 10px;
+margin-right: 10px;
+background-color: rgb(0, 0, 77);
+width: auto;
+color: white;
+}
+.purchase{
+    background-color: rgb(179, 255, 179);
+    height: 20px;
+    width: 70px;
+    border-radius: 5px;
+    
 }
