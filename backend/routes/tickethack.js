@@ -1,18 +1,20 @@
 require('../models/connection')
 const express = require('express');
 const router = express.Router();
-const Trip = require('../models/trips');
+//const Trip = require('../models/trips');
+const Cart = require('../models/cart');
 
 
-    router.post('/trips',(req,res) => {
-        const newTrips = {
+    router.post('/cart',(req,res) => {
+        console.log('coucou')
+        const newCart = new Cart({
             departure: req.body.departure, 
             arrival: req.body.arrival,
             date : req.body.date,
             price : req.body.price
-        }
-        Trip.push(newTrips),
-        res.json({allTrips : Trip})
-    })
+        })
+        newCart.save().then( ( )=>
+        res.json({allCart : newCart}))
+        })
 
 module.exports = router;
