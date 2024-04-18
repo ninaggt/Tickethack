@@ -42,7 +42,8 @@ a{
     
 }
 #blockinfos{
-    height: 500px;
+    margin-top: 20px;
+    height: auto;
     display: flex;
     justify-content: center;
     align-items: center;
